@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* HEADER */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 210, 217);
+}
+.imagenLogo {
+    width: 200px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeTexto h3 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.homeTexto p{
+    color: black;
+    font-size: 20px;
+    text-align: start;
+    padding: 30px;
+}
+/* Navbar */
+.centrarNav{
+    margin: 0px 20px;
+}
+
+.imgCara {
+    background-image: url(../img/Cara.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+}
+.imgCara h1 {
+    font-size: 30px;
+}
+.imgCara p {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+main p {
+    font-size: 17px;
+}
+
+/* Tratamientos */
+.tituloTratamientos {
+    background-color: rgb(250, 192, 202);
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.tituloTratamientos h2 {
+    font-size: 40px;
+}
+
+a.btn.colorBtn {
+    background-color: rgb(255, 32, 162) ;
+    color: #fafafa;
+    font-size: 25px;
+}
+
+a.btn.colorBtn:hover {
+    background-color:rgb(233, 3, 137) ;
+    
+}
+
+/* FORMULARIO */
+.containerForm {
+    background-image: url(../img/faciales.jpg);
+    background-size: 100vw;
+    background-attachment: fixed;
+    margin: 0%;
+
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+form h2 {
+    color: #fafafa;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin: 0;
+}
+
+.formText {
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: rgb(255, 24, 205);
+    color: #fafafa;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+#boton:hover {
+    background-color: rgb(228, 0, 178);
+    color: #fafafa;
+    cursor: pointer
+
+}
+@media (max-width:480px){
+    form {
+        width: 100%;
+    }
+}
+/* NOSOTROS */
+.nosotrosTitulo{
+    background-color: rgb(250, 192, 202);
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.carouselText{
+    color: #fafafa;
+    text-align: center;
+    font-size: 25px;
+
+}
+.carouselText h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    position: absolute;
+    padding: 8px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socialContainer, .footerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.socialIcon {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/facebook.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.socialIcon:nth-child(2) {
+    background-image:url(../img/instagram.png);
+}
+
+.socialIcon:nth-child(3) {
+    background-image: url(../img/twiiter.png);
+    border: 4px solid rgb(58, 58, 58);
+    border-radius: 100%;
+}
+
+.footerMenu {
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menuItem {
+    margin: 5px 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.menuItem:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: black;
+    opacity: 0.8;
+    text-align: center;
+}
+@media (max-width:480px){
+    .imgCara p {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+}
